@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:git_testing/HomeScreen.dart';
 import 'package:git_testing/LoginScreen.dart';
+import 'package:git_testing/RegisterScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: HomeScreen(),
+      home: RegisterScreen(),
     );
   }
 }
